@@ -66,7 +66,6 @@ void validate2(){
 }
 
 void play(){
-    // char x;
     print();
     gotoXY1(px1,py1) ; printf("X");
     gotoXY1(px2,py2) ; printf("Y");
@@ -97,7 +96,7 @@ void play(){
 
 
 int main() {
-	srand(time(0));fx
+    srand(time(0));
     generate();
     play();
     return 0;
